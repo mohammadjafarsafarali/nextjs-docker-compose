@@ -14,9 +14,9 @@ services:
         yarn start"
     healthcheck:
       test: [ "CMD-SHELL", "wget -O /dev/null http://localhost:3000 || exit 1" ]
-      timeout: 10s
-      interval: 15s
-      retries: 5
+      timeout: 30s
+      interval: 20s
+      retries: 10
 
   nginx:
     container_name: nginx
