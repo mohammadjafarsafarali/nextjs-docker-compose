@@ -1,1 +1,1 @@
-# nextjs-docker-compose
+# Next.js Docker Composer
